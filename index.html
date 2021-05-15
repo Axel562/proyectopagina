@@ -1,0 +1,72 @@
+<html>
+<head>
+
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    
+
+</head>
+<body>
+    <header>    <!-- logo, menu y el dia de hoy --> 
+        <nav>
+
+            <img  id="logo" src="https://brandemia.org/sites/default/files/icono_netflix_nuevo.jpg" href="index.html">
+
+        </nav>
+        <nav>
+         <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes.html">Quiénes somos</a></li>
+            <li><a href="producto.html">Productos</a></li>
+            <li><a href="contacto.html">Contactenos</a></li>
+         </ul>
+        </nav>
+
+        <nav id="fecha">
+        <p id="txtx">Hoy es &nbsp </p>
+        <p id="dia"></p>
+        </nav>
+
+        <script>
+            var d = new Date();
+            var days = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
+            document.getElementById("dia").innerHTML = days[d.getDay()];
+        </script>
+        
+
+    </header>
+
+
+    <nav id="portada"> <!--contenido-->
+
+        <nav id="banner">
+            <img  id="bannerimg" src="https://crescentvale.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-30-at-7.48.25-AM.png">
+        </nav>
+        
+        <nav id="banner">
+            <a title="num3" href="quienes.html">
+            <img alt="num3"  id="bannerimg" src="https://www.jezzmedia.com/wp-content/uploads/2016/11/quienes-somos.jpg"></a>
+        </nav>
+        
+        <nav id="banner">
+            <a title="num3" href="producto.html">
+            <img alt="num3"  id="bannerimg" src="https://assets3.ignitermedia.com/1e8a24d9e843a0584bf7b27d5e67d50b.jpg"></a>
+        </nav>
+
+
+    </nav>
+
+
+    <footer>
+
+        <p>Jorge Caceres. Sitio Web con los derechos reservados.</p>
+
+    </footer>
+
+
+</body>
+
+
+
+
+
+</html>
